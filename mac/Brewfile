@@ -1,0 +1,19 @@
+# macOS only (from macos/configuration.nix and macos/mac_mini/configuration.nix).
+# Install: brew bundle --file=Brewfile.macos
+
+brew "cocoapods" # Flutter iOS simulation
+
+cask "utm"
+cask "iterm2"
+cask "affinity"
+cask "balenaetcher"
+cask "docker-desktop"
+cask "hermes-desktop"
+cask "leader-key"
+cask "sweet-home3d"
+cask "tailscale-app"
+cask "flutter"
+cask "google-chrome"
+
+# Mac mini only
+cask "lunar"

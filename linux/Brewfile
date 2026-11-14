@@ -1,0 +1,15 @@
+# Linux only (from linux/configuration.nix).
+# Install: brew bundle --file=Brewfile.linux
+# Flatpak entries need flatpak installed and the Flathub remote added.
+
+brew "neovim"
+brew "tailscale" # services.tailscale; start tailscaled yourself
+
+flatpak "org.gnome.Podcasts"
+flatpak "org.onlyoffice.desktopeditors"
+flatpak "org.videolan.VLC"
+flatpak "org.mozilla.firefox"
+flatpak "org.gnome.Geary"
+
+# Not installable with Homebrew or Flatpak. Get these from extensions.gnome.org:
+#   PaperWM, Tailscale QS, Dash to Dock
