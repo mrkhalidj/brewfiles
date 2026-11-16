@@ -3,6 +3,9 @@
 ## TERMINAL
 cask "iterm2" if OS.mac?
 
+## DOT FILES
+brew "chezmoi"
+
 ## BROWSER
 cask "brave-browser" if OS.mac?
 flatpak "com.brave.Browser" if OS.linux?
